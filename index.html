@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Salão Estilo & Barba: Transforme seu visual com nossos especialistas em cortes, barbas e tratamentos de beleza. Agende seu horário!" />
+  <title>Salão Estilo & Barba - Seu Novo Visual Começa Aqui</title>
+  <link rel="icon" href="images/favicon.png" type="image/png"> <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+    <source src="Vídeo_Pronto_Estilo_Barba.mp4" type="video/mp4">
+    Seu navegador não suporta vídeo em HTML5.
+  </video>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">Estilo & Barba</a> </div>
+      <ul class="nav-links">
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#precos">Preços</a></li>
+        <li><a href="#avaliacoes">Avaliações</a></li>
+        <li><a href="#agendamento">Agendar</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">&#9776;</button>
+    </nav>
+    <div class="hero-content">
+      
+      <h1>Transforme seu estilo com a gente</h1>
+      <p>Cortes, barbas e beleza em um só lugar</p>
+      <a href="#agendamento" class="btn btn-primary">Agende Agora</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-grid">
+            <div class="servico-item">
+                <img src="img/tesoura.png" alt="Ícone de tesoura e pente" class="servico-icon">
+                <h3>Cortes Modernos</h3>
+                <p>Do clássico ao contemporâneo, encontramos o corte perfeito para seu estilo.</p>
+            </div>
+            <div class="servico-item">
+                <img src="img//navalha.png" alt="Ícone de navalha" class="servico-icon">
+                <h3>Barbas Impecáveis</h3>
+                <p>Modelagem, hidratação e design para uma barba de respeito.</p>
+            </div>
+            <div class="servico-item">
+                <img src="img/tubo_de_tinta.png" alt="Ícone de tubo de tinta" class="servico-icon">
+                <h3>Coloração & Tratamentos</h3>
+                <p>Realce sua cor natural ou ouse com novas tonalidades. Tratamentos para revitalizar.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+      <h2>Nossos Estilos em Destaque</h2>
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-track">
+            <figure class="carousel-slide"><img src="img/img_1.png" alt="Homem com corte de cabelo moderno e texturizado" loading="lazy"><figcaption>Corte Texturizado</figcaption></figure>
+            <figure class="carousel-slide"><img src="img/img_2.png" alt="Close-up de barba bem aparada e modelada" loading="lazy"><figcaption>Barba Modelada</figcaption></figure>
+            <figure class="carousel-slide"><img src="img/img_3.png" alt="Homem com corte de cabelo clássico e elegante" loading="lazy"><figcaption>Corte Clássico</figcaption></figure>
+            <figure class="carousel-slide"><img src="img/img_4.png" alt="Barba cheia e bem cuidada" loading="lazy"><figcaption>Barba Cheia</figcaption></figure>
+            <figure class="carousel-slide"><img src="img/img_5.png" alt="Penteado masculino para ocasião especial" loading="lazy"><figcaption>Penteado Evento</figcaption></figure>
+            <figure class="carousel-slide"><img src="img/img_6.png" alt="Cabelo masculino com coloração moderna" loading="lazy"><figcaption>Coloração Global</figcaption></figure>
+            <figure class="carousel-slide"><img src="img/img_7.png" alt="Penteado casual estiloso" loading="lazy"><figcaption>Penteado Casual</figcaption></figure>
+            <figure class="carousel-slide"><img src="img/img_8.png" alt="Barba desenhada com precisão" loading="lazy"><figcaption>Barba Desenhada</figcaption></figure>
+            <figure class="carousel-slide"><img src="img/img_9.png" alt="Corte de cabelo jovem e despojado" loading="lazy"><figcaption>Corte Jovem</figcaption></figure>
+          </div>
+        </div>
+        <button class="carousel-button prev" aria-label="Estilo anterior">&#10094;</button>
+        <button class="carousel-button next" aria-label="Próximo estilo">&#10095;</button>
+        <div class="carousel-dots"></div>
+      </div>
+    </section>
+
+    <section id="precos" class="precos">
+      <h2>Preços e Pacotes</h2>
+      <div class="precos-wrapper">
+        <table>
+          <thead>
+            <tr><th>Serviço</th><th>Preço</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Corte Masculino</td><td>R$ 40,00</td></tr>
+            <tr><td>Barba Tradicional</td><td>R$ 30,00</td></tr>
+            <tr><td>Corte + Barba Tradicional</td><td>R$ 65,00</td></tr>
+            <tr><td>Barboterapia</td><td>R$ 50,00</td></tr>
+            <tr><td>Coloração</td><td>A partir de R$ 70,00</td></tr>
+            <tr><td>Penteado Especial</td><td>R$ 60,00</td></tr>
+            <tr><td>Hidratação Capilar</td><td>R$ 45,00</td></tr>
+          </tbody>
+        </table>
+        <p class="pacote-destaque">
+          <strong>Pacote VIP:</strong> Corte + Barboterapia + Hidratação por apenas <strong>R$ 120,00</strong>!
+        </p>
+      </div>
+    </section>
+
+    <section id="avaliacoes" class="avaliacoes">
+      <h2>O que dizem nossos clientes</h2>
+      <div class="depoimentos">
+        <article class="depoimento-card">
+          <blockquote>
+            <p>"Melhor corte da minha vida! Ambiente top e profissionais incríveis. Recomendo de olhos fechados!"</p>
+          </blockquote>
+          <p>— João M.-</p>
+        </article>
+        <article class="depoimento-card">
+          <blockquote>
+            <p>"Sempre volto! Atendimento impecável e o resultado da barba é sempre excelente. Profissionais muito qualificados."</p>
+          </blockquote>
+          <p>— Carla B.-<p>
+        </article>
+        <article class="depoimento-card">
+          <blockquote>
+            <p>"Meu lugar de confiança para barba e cabelo. Ambiente agradável e o preço é justo pela qualidade."</p>
+          </blockquote>
+          <p>— Rafael L.-</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="agendamento" class="agendamento">
+      <h2>Agende seu Horário Facilmente</h2>
+      <p>Estamos ansiosos para realçar o seu estilo. Entre em contato pelo WhatsApp e reserve seu momento de cuidado.</p>
+      <a href="https://wa.me/5599999999999" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+        <img src="img/whatsapp.png" alt="" class="whatsapp-icon"> Falar no WhatsApp
+      </a>
+      <p class="contato-alternativo">Ou ligue para: (XX) XXXXX-XXXX</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-info">
+            <p><strong>Salão Estilo & Barba</strong></p>
+            <address>
+                Rua das Palmeiras, 123 - Centro<br>
+                Sua Cidade, UF - CEP: XX.XXX-XXX
+            </address>
+            <p>Telefone: (XX) XXXXX-XXXX</p>
+        </div>
+        <div class="footer-social">
+            <p>Siga-nos:</p>
+            <a href="#" aria-label="Instagram"><img src="img/insta.png" alt="Instagram"></a>
+            <a href="#" aria-label="Facebook"><img src="img/facebook.png" alt="Facebook"></a>
+        </div>
+    </div>
+    <p class="copyright">© <span id="currentYear"></span> Salão Estilo & Barba - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
